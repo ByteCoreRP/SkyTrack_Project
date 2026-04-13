@@ -115,6 +115,9 @@
       <address>Contato: suporte@skytrack.com</address>
     </footer>
 
+
+    // professor esse script ele mostra os drones cadastrados na pagina cadastro.html e se não tiver nenhum cadastrado da uma mensagem de nenhum encontrado
+
     <script>
       const tabela = document.querySelector("tbody");
 
@@ -148,6 +151,7 @@
         });
       }
 
+      //essa parte professor é pra excluir todos os drones e tem um alert de confirm para não excluir de uma vez 
       function limparDados() {
         if (confirm("Tem certeza?")) {
           localStorage.removeItem("drones");
