@@ -21,6 +21,7 @@ Criar uma interface intuitiva e responsiva que funcione bem tanto em campo quant
 ## 🛠️ Tecnologias Utilizadas
 
 - 🌐 **HTML5 Semântico**
+- ***Bootstrap***
 - 🎨 **CSS3**
   - Flexbox
   - Grid Layout
